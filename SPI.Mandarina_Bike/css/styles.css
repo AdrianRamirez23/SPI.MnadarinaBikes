@@ -1,0 +1,89 @@
+:root {
+  --celeste: #7dbed9;
+  --azul: #00aff4;
+  --verde: #00793b;
+  --naranja: #f78f20;
+  --azul-btn: #2e90bd;
+  --azul-btn-hv: #8fd0ee;
+  --verdeClaro: #00b19d;
+  --verdeHover: #00b19dbf;
+  --grisClaro: #f7f9fa;
+  --fuente: "Nunito", sans-serif;
+}
+body {
+  font-family: var(--fuente);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  color: var(--gray-dark);
+}
+h1 {
+  font-size: 40px;
+  font-weight: 900;
+}
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+}
+h3 {
+  font-size: 30px;
+  font-weight: 700;
+}
+h4 {
+  font-size: 28px;
+  font-weight: 500;
+}
+h5 {
+  font-size: 24px;
+  font-weight: 500;
+}
+h6 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.fuente-delgada {
+  font-weight: 300;
+}
+
+.margin-bottom {
+  margin-bottom: 10px;
+}
+
+.centrar-texto {
+  text-align: center;
+}
+
+i{
+  font-size: 18px;
+}
+
+.panel-opc{
+  display:flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 20px;
+}
+
+@media(min-width: 768px) {
+  .panel-opc{
+    flex-direction: row;
+  }
+}
+
+.form-control:focus{
+  border: none;
+  outline: 1px solid var(--naranja);
+} 
