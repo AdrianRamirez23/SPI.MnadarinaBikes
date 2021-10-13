@@ -176,7 +176,7 @@
                with font-awesome or any other icon font library -->
 
                             <li class="nav-item">
-                                <a href="clientes.aspx" class="nav-link">
+                                <a href="index.aspx" class="nav-link">
                                     <i class="nav-icon fas fa-fw fa-users"></i>
                                     <p class="fuente-delgada">
                                         Clientes
