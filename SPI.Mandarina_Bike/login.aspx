@@ -65,7 +65,8 @@
           </div>
           <!-- /.col -->
           <div class="col-6 mb-2">
-            <button type="submit" class="btn btn-success btn-block">Iniciar Sesión</button>
+           <%-- <button type="submit" class="btn btn-success btn-block">Iniciar Sesión</button>--%>
+               <a href="views/index.aspx" class="btn btn-success btn-block">Iniciar Sesión</a>
           </div>
           <!-- /.col -->
         </div>

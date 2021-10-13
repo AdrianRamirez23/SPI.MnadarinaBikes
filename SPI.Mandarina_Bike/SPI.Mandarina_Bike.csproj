@@ -138,6 +138,9 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="js\.eslintrc.json" />
+    <Content Include="js\adminlte.js.map" />
+    <Content Include="js\adminlte.min.js.map" />
     <Content Include="css\adminlte.css.map" />
     <Content Include="css\adminlte.min.css.map" />
     <Content Include="css\alt\adminlte.components.css.map" />
@@ -162,9 +165,6 @@
     <Content Include="css\webfonts\fa-solid-900.ttf" />
     <Content Include="css\webfonts\fa-solid-900.woff" />
     <Content Include="css\webfonts\fa-solid-900.woff2" />
-    <Content Include="js\.eslintrc.json" />
-    <Content Include="js\adminlte.js.map" />
-    <Content Include="js\adminlte.min.js.map" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="js\adminlte.js" />
     <Content Include="js\adminlte.min.js" />
