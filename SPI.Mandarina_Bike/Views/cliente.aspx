@@ -119,17 +119,22 @@
           </div>
           <!-- /.card-body -->
           <div class="card-footer">
-            <div class="botones-separados">
-              <button type="button" class="btn btn-success" data-bs-toggle="modal"
-                data-bs-target="#modal-nueva-orden"><i class="bi bi-plus-circle"></i>
-                Nueva orden</button>
-              <button type="button" class="btn btn-warning" data-bs-toggle="modal"
-                data-bs-target="#modal-nueva-garantia"><i class="bi bi-plus-circle"></i>
-                Nueva garantía</button>
-              <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modal-editar-cliente"><i
-                  class="bi bi-pencil"></i>
-                Editar cliente</button>
-            </div>
+              <div class="botones-separados">
+                  <div class="botones">
+                      <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                          data-bs-target="#modal-nueva-orden">
+                          <i class="bi bi-plus-circle"></i>
+                          Nueva orden</button>
+                      <button type="button" class="btn btn-warning" data-bs-toggle="modal"
+                          data-bs-target="#modal-nueva-garantia">
+                          <i class="bi bi-plus-circle"></i>
+                          Nueva garantía</button>
+                  </div>
+                  <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modal-editar-cliente">
+                      <i
+                          class="bi bi-pencil"></i>
+                      Editar cliente</button>
+              </div>
           </div>
           <!-- /.card-footer-->
         </div>

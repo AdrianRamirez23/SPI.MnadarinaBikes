@@ -101,11 +101,10 @@ i {
         flex-direction: row;
         align-items: center;
     }
-
     .botones-separados {
         flex-direction: row;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-between;
     }
 }
 
