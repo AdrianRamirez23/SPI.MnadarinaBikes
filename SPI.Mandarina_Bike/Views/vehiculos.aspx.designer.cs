@@ -7,20 +7,11 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace SPI.Mandarina_Bike
+namespace SPI.Mandarina_Bike.Views
 {
 
 
-    public partial class SiteMaster
+    public partial class vehiculos
     {
-
-        /// <summary>
-        /// Control MainContent.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder MainContent;
     }
 }

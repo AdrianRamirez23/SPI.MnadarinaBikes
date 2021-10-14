@@ -184,7 +184,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="vehiculos.html" class="nav-link">
+                                <a href="vehiculos.aspx" class="nav-link">
                                     <i class="nav-icon fas fa-bicycle"></i>
                                     <p class="fuente-delgada">
                                         Vehículos
@@ -192,7 +192,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="responsables.html" class="nav-link">
+                                <a href="responsables.aspx" class="nav-link">
                                     <i class="nav-icon fas fa-user-tie"></i>
                                     <p class="fuente-delgada">
                                         Responsables
@@ -200,7 +200,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="tipos-ordenes.html" class="nav-link">
+                                <a href="tipos_ordenes.aspx" class="nav-link">
                                     <i class="nav-icon fas fa-th"></i>
                                     <p class="fuente-delgada">
                                         Tipos de Órdenes
@@ -208,7 +208,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="estados.html" class="nav-link">
+                                <a href="estados.aspx" class="nav-link">
                                     <i class="nav-icon fas fa-star-half-alt"></i>
                                     <p class="fuente-delgada">
                                         Estados
@@ -216,7 +216,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="marcas.html" class="nav-link">
+                                <a href="marcas.aspx" class="nav-link">
                                     <i class="nav-icon fas fa-check"></i>
                                     <p class="fuente-delgada">
                                         Marcas
@@ -224,7 +224,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="lineas.html" class="nav-link">
+                                <a href="lineas.aspx" class="nav-link">
                                     <i class="nav-icon fas fa-grip-lines"></i>
                                     <p class="fuente-delgada">
                                         Líneas
@@ -241,13 +241,13 @@
                                 </a>
                                 <ul class="nav nav-treeview">
                                     <li class="nav-item">
-                                        <a href="repuestos.html" class="nav-link">
+                                        <a href="repuestos.aspx" class="nav-link">
                                             <i class="nav-icon fas fa-toolbox"></i>
                                             <p>Repuestos</p>
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="mano-de-obra.html" class="nav-link">
+                                        <a href="mano_de_obra.aspx" class="nav-link">
                                             <i class="nav-icon fas fa-wrench"></i>
                                             <p>Mano de Obra</p>
                                         </a>
