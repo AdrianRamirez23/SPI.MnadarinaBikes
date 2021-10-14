@@ -7,11 +7,11 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace SPI.Mandarina_Bike
+namespace SPI.Mandarina_Bike.Views
 {
 
 
-    public partial class login
+    public partial class cliente
     {
     }
 }

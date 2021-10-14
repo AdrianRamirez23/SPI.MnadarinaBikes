@@ -21,14 +21,14 @@
           </div>
           <div class="panel-opc">
             <!-- Boton Modal -->
-            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modalCrearCliente"><i
+            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modal-crear-cliente"><i
                 class="bi bi-person-plus-fill"></i>
               Nuevo cliente</button>
           </div>
         </div>
         <!-- MODALS -->
         <!-- Modal -->
-        <div class="modal fade" id="modalCrearCliente" tabindex="-1" aria-labelledby="exampleModalLabel"
+        <div class="modal fade" id="modal-crear-cliente" tabindex="-1" aria-labelledby="exampleModalLabel"
           aria-hidden="true" data-bs-backdrop="static">
           <div class="modal-dialog modal-xl">
             <div class="modal-content">
@@ -37,7 +37,7 @@
                   Cliente</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-              <div class="modal-body no-padding-bottom">
+              <div class="modal-body">
               
                   <div class="cont-form">
                     <div class="form-group">
@@ -189,7 +189,6 @@
                 <button type="submit" class="btn btn-success">Aceptar</button>
               </div>
             
-              <!-- /FORM -->
             </div>
           </div>
         </div>
