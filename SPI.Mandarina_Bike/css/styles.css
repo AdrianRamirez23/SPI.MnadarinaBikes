@@ -1,12 +1,12 @@
 :root {
     /* --celeste: #7dbed9;
-  --azul: #00aff4; 
-  --verde: #00793b;*/
+--azul: #00aff4; 
+--verde: #00793b;*/
     --naranja: #f78f20;
     /* --azul-btn: #2e90bd;
-  --azul-btn-hv: #8fd0ee;
-  --verdeClaro: #00b19d;
-  --verdeHover: #00b19dbf; */
+--azul-btn-hv: #8fd0ee;
+--verdeClaro: #00b19d;
+--verdeHover: #00b19dbf; */
     --grisClaro: #f7f9fa;
     --fuente: "Nunito", sans-serif;
 }
@@ -105,7 +105,7 @@ i {
     .botones-separados {
         flex-direction: row;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-between;
     }
 }
 
@@ -131,7 +131,8 @@ textarea {
     border: 1px solid rgb(206, 212, 218);
 }
 
-    .form-control:focus, textarea:focus {
+    .form-control:focus,
+    textarea:focus {
         border: none;
         outline: 1px solid var(--naranja);
     }
@@ -145,7 +146,11 @@ textarea {
     justify-content: space-around;
 }
 
+.acciones {
+    width: 165px;
+}
+
 .iconos-acciones {
     display: flex;
-    column-gap: .5rem;
+    column-gap: 0.5rem;
 }
