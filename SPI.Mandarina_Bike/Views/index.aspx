@@ -186,7 +186,7 @@
               <!-- /.row -->
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                <button type="submit" class="btn btn-success">Aceptar</button>
+                <button type="submit" class="btn btn-success">Guardar</button>
               </div>
             
             </div>
