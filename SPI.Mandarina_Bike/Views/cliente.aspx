@@ -123,10 +123,12 @@
             <div class="card-footer">
                 <div class="botones-separados">
                     <div class="botones">
-                        <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                        <%--<button type="button" class="btn btn-success" data-bs-toggle="modal"
                             data-bs-target="#modal-nueva-orden">
                             <i class="bi bi-plus-circle"></i>
-                            Nueva orden</button>
+                            Nueva orden</button>--%>
+                        <a href="nueva-orden.aspx" class="btn btn-success"><i class="bi bi-plus-circle"></i>
+                            Nueva orden</a>
                         <button type="button" class="btn btn-warning" data-bs-toggle="modal"
                             data-bs-target="#modal-nueva-garantia">
                             <i class="bi bi-plus-circle"></i>
@@ -231,7 +233,7 @@
 
         <!-- MODALS -->
         <!-- Modal Nueva Orden -->
-        <div class="modal fade" id="modal-nueva-orden" tabindex="-1" aria-labelledby="nueva-orden"
+        <%--<div class="modal fade" id="modal-nueva-orden" tabindex="-1" aria-labelledby="nueva-orden"
             aria-hidden="true" data-bs-backdrop="static">
             <div class="modal-dialog modal-xl">
                 <div class="modal-content">
@@ -326,7 +328,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>--%>
         <!-- FIN DEL MODAL NUEVA ORDEN-->
 
         <!-- Modal Editar Cliente -->
@@ -488,7 +490,7 @@
                     <!-- /.row -->
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                        <button type="submit" class="btn btn-success">Aceptar</button>
+                        <button type="submit" class="btn btn-success">Guardar</button>
                     </div>
                 </div>
             </div>

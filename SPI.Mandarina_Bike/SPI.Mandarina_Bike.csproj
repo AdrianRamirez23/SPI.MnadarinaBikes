@@ -207,6 +207,7 @@
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Views\cliente.aspx" />
     <Content Include="Views\index.aspx" />
+    <Content Include="Views\nueva-orden.aspx" />
     <Content Include="Views\vehiculos.aspx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -259,6 +260,13 @@
     </Compile>
     <Compile Include="Views\index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\nueva-orden.aspx.cs">
+      <DependentUpon>nueva-orden.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\nueva-orden.aspx.designer.cs">
+      <DependentUpon>nueva-orden.aspx</DependentUpon>
     </Compile>
     <Compile Include="Views\vehiculos.aspx.cs">
       <DependentUpon>vehiculos.aspx</DependentUpon>

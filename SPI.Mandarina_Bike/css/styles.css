@@ -96,6 +96,12 @@ i {
     gap: 1rem;
 }
 
+.flex-right {
+    display: flex;
+    justify-content: right;
+    column-gap: .5rem;
+}
+
 @media (min-width: 576px) {
     .botones {
         flex-direction: row;
@@ -143,14 +149,11 @@ textarea {
 
 .bloque {
     display: flex;
-    justify-content: space-around;
-}
-
-.acciones {
-    width: 165px;
+    justify-content: space-between;
 }
 
 .iconos-acciones {
     display: flex;
     column-gap: 0.5rem;
+    max-width: 20px;
 }
