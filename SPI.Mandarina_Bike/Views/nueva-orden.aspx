@@ -449,7 +449,168 @@
             </div>
             <!-- FIN DEL MODAL NUEVO VEHICULO-->
 
+    <!-- MODAL DETALLE DE ORDEN -->
+            <div class="modal fade" id="modal-detalle-orden" tabindex="-1" aria-labelledby="detalle-orden"
+                aria-hidden="true" data-bs-backdrop="static">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="detalle-orden">
+                                Detalle de Orden</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
 
+                            <div class="cont-form">
+                                <div class="form-group">
+                                    <label for="bodega">Bodega: </label>
+                                    <input type="text" class="form-control" id="bodega">
+                                </div>
+                                <!-- /.form-group -->
+                                <div class="form-group">
+                                    <label for="referencia">Referencia: </label>
+                                    <select class="form-select form-control" id="referencia">
+                                        <option selected disabled>Seleccione una opción</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                                <!-- /.form-group -->
+                                <div class="form-group">
+                                    <label for="respons1">Responsable: </label>
+                                    <input type="text" class="form-control" id="respons1">
+                                </div>
+                                <!-- /.form-group -->
+                                <div class="form-group">
+                                    <label for="existencia">Existencia: </label>
+                                    <select class="form-select form-control" id="existencia">
+                                        <option selected disabled>Seleccione una opción</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                                <!-- /.form-group -->
+                                <div class="form-group">
+                                    <label for="cantidad">Cantidad: </label>
+                                    <input type="number" class="form-control" id="cantidad">
+                                </div>
+                                <!-- /.form-group -->
+                                <div class="form-group">
+                                    <label for="valor">Valor: </label>
+                                    <input type="number" class="form-control" id="valor">
+                                </div>
+                                <!-- /.form-group -->
+                                <div class="form-group cont-amplio">
+                                    <label for="observ2">Observaciones:</label>
+                                    <textarea name="" id="observ2" rows="5"></textarea>
+                                </div>
+                                <!-- /.form-group -->
+                            </div>
+                            <!-- /.cont-form -->
+                        </div>
+                        <!-- /.row -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="submit" class="btn btn-success">Guardar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- FIN DEL MODAL DETALLE ORDEN-->
+
+    <!-- MODAL CONCEPTO TECNICO -->
+            <div class="modal fade" id="modal-concepto-tecnico" tabindex="-1" aria-labelledby="concepto-tecnico"
+                aria-hidden="true" data-bs-backdrop="static">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="concepto-tecnico">
+                                Concepto Técnico</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+
+                            <div class="cont-form">
+                                <div class="form-group cont-amplio">
+                                    <label for="concepto">Concepto:</label>
+                                    <textarea name="" id="concepto" rows="5"></textarea>
+                                </div>
+                                <!-- /.form-group -->
+                            </div>
+                            <!-- /.cont-form -->
+                        </div>
+                        <!-- /.row -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="submit" class="btn btn-success">Guardar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- FIN DEL MODAL CONCEPTO TECNICO-->
+
+    <!-- MODAL FLUJO -->
+            <div class="modal fade" id="modal-flujo" tabindex="-1" aria-labelledby="flujo" aria-hidden="true"
+                data-bs-backdrop="static">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="flujo">
+                                Flujo</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+
+                            <div class="cont-form">
+                                <div class="form-group">
+                                    <label for="numOrden">No. Orden: </label>
+                                    <input type="text" class="form-control" id="numOrden">
+                                </div>
+                                <!-- /.form-group -->
+                                <div class="form-group">
+                                    <label for="actual">Estado actual: </label>
+                                    <select class="form-select form-control" id="actual">
+                                        <option selected disabled>Seleccione una opción</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                                <!-- /.form-group -->
+                                <div class="form-group">
+                                    <label for="respons3">Responsable: </label>
+                                    <input type="text" class="form-control" id="respons3">
+                                </div>
+                                <!-- /.form-group -->
+                                <div class="form-group">
+                                    <label for="nuevoEstado">Nuevo Estado: </label>
+                                    <select class="form-select form-control" id="nuevoEstado">
+                                        <option selected disabled>Seleccione una opción</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                                <!-- /.form-group -->
+                                <div class="form-group cont-amplio">
+                                    <label for="comentario">Comentarios:</label>
+                                    <textarea name="" id="comentario" rows="5"></textarea>
+                                </div>
+                                <!-- /.form-group -->
+                            </div>
+                            <!-- /.cont-form -->
+                        </div>
+                        <!-- /.row -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="submit" class="btn btn-success">Guardar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- FIN DEL MODAL FLUJO-->
 
 <%-- <script src="../js/app.js"></script>--%>
   <script src="../js/jquery.min.js"></script>
